@@ -1,0 +1,64 @@
+body{
+    font-family:'Lora',Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+}
+a:active{
+    color: lightblue;
+}
+.header{
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.563);
+    font-family: 'Lora',Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    border-radius: 10px;
+    color: chocolate;
+}
+
+.header img{
+    display: block;
+    margin: 0 auto;
+}
+
+#terapanthLogo{
+    width: 7.5%;
+    height: auto;
+}
+
+.tab{
+    padding: 25px;
+    margin: 10px;
+    color: lightseagreen;
+    background-color: transparent;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.card .tab{
+    text-align: right;
+}
+.card{
+    width:40%;
+    margin: 20px auto;
+    padding: 20px ;
+    background-color: rgba(255, 255, 255, 0.563);
+    border-radius: 10px;
+    text-align: left;
+    color: navy;
+    top: 0;
+}
+
+.link{
+    text-decoration: none;
+    color:blueviolet;
+}
+.directory{
+    
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    height: 100vh;
+}
+
+iframe {
+    max-width: 100%; 
+    max-height: 100%;
+  }
+
